@@ -75,7 +75,7 @@ public class StudentScore {
 						break;
 					}
 					else {
-						System.out.println("점수가 " + scores + "인 학생은 없습니다.");
+						System.out.println("없습니다.");
 						break;
 						}
 					}
