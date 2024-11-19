@@ -75,7 +75,7 @@ public class GuessGame {
 			System.out.print("계속하시려면 yes >> ");
 			String re = s.next();
 				if(!re.equals("yes")) {
-					result();
+					result();					
 					break;
 			}
 		}
@@ -83,7 +83,6 @@ public class GuessGame {
 	}
 	public static void main(String[] args) {
 		GuessGame game = new GuessGame();
-		game.playGame();
 	}
 
 }
