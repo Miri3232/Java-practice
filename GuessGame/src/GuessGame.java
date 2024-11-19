@@ -8,7 +8,7 @@ public class GuessGame {
 	private Scanner s = new Scanner(System.in);
 	
 	public GuessGame() {
-		System.out.println("예측 게임을 시작합니다.");
+		System.out.println("*** 예측 게임을 시작합니다. ***");
 		inputPlayers();
 		playGame();
 	}
