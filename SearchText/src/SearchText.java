@@ -14,7 +14,7 @@ public class SearchText {
 		System.out.println("전체 경로명이 아닌 파일 이름만 입력하는 경우, 파일은 프로젝트 폴더에 있어야 합니다.");
 		System.out.print("대상 파일명 입력>> ");
 		
-		String filename = s.next();
+		String filename = s.nextLine();
 		
 		Scanner fs = new Scanner(new FileInputStream(filename));
 		while(fs.hasNext()) {
@@ -30,7 +30,6 @@ public class SearchText {
 	}
 	
 	public void Search()  {
-		s.nextLine();
 		while(true) {
 			boolean found = false;
 			System.out.print("검색할 단어나 문장>> ");
